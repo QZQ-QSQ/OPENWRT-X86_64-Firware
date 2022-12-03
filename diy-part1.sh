@@ -19,5 +19,3 @@
 sed -i '$a src-git dockerman https://github.com/lisaac/luci-app-dockerman' feeds.conf.default
 sed -i '$a src-git libdocker https://github.com/lisaac/luci-lib-docker' feeds.conf.default
 sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash' feeds.conf.default
-#sed -i '$a src-git PASSWALLpackages https://github.com/xiaorouji/openwrt-passwall.git;packages' feeds.conf.default
-sed -i '$a src-git PASSWALLluci https://github.com/xiaorouji/openwrt-passwall.git;luci' feeds.conf.default
