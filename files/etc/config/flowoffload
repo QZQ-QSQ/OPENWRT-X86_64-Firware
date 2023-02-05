@@ -1,0 +1,7 @@
+
+config flow
+	option bbr '0'
+	option flow_offloading '0'
+	option dns '1'
+	option dns_server '114.114.114.114,114.114.115.115,120.196.165.24,211.136.192.6'
+
