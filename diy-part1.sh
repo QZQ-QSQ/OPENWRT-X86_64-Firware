@@ -22,4 +22,4 @@ sed -i '$a src-git libdocker https://github.com/lisaac/luci-lib-docker' feeds.co
 sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash' feeds.conf.default
 sed -i '$a src-git dockerce https://github.com/docker/docker-ce' feeds.conf.default
 ##修改内核版本
-sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.15/g' ./target/linux/x86/Makefile
+#sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.15/g' ./target/linux/x86/Makefile
